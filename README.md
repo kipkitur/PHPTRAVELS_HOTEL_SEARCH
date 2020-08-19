@@ -129,7 +129,7 @@ Pass/Fail: Fail
 
 
 
-Issues:
+Perfomance Issues:
 
 ![403 error](screenshots/403-error.PNG)
 

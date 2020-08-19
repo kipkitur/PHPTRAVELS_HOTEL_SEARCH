@@ -79,11 +79,11 @@ Given the user is on the homepage
 
 And they have chosen the Hotels option
 
-And they have selected <Hotel> 
+And they have selected Hotel
 
-And they have selected <checkin> , <checkout>  
+And they have selected checkin , checkout  
 
-And they have selected <Adults> , <Children>
+And they have selected Adults , Children
 
 When they click search
 

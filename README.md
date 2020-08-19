@@ -7,12 +7,7 @@ Please make sure you have **Python** installed [link](https://www.python.org/dow
 
 Please make sure you have **PyCharm** installed [link](https://www.jetbrains.com/pycharm/download/)
 
-Create a project and give it a name. Now add the necessary packages. Its best practice to separete dependencies with a virtual environment.
-
-### Navigate to the tests folder and run the following file(make sure to comment out only what you need):
-```
-setupenv.sh
-``` 
+Create a project and give it a name. Now add the necessary packages. 
 
 To install the necessary packages using **PyCharm** (on **Windows 10**):
 
@@ -47,6 +42,17 @@ Navigate to File(top right corner of Pycharm) and click on Settings. Click on Pr
 ```
 pytestrun.sh
 ```
+
+### Virtual environment
+
+Its best practice to separete dependencies with a virtual environment.
+
+### Navigate to the tests folder and run the following file if you prefer a virtual environment with separete dependencies(make sure to comment out only what you need):
+```
+setupenv.sh
+``` 
+
+
 
 #### Test case description: Test the Hotels search feature
 

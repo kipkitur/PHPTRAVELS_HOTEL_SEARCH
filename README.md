@@ -1,8 +1,8 @@
 ### 
-#### I performed web UI automation for PHP Travels hotel search feature. I built a test automation solution using pycharm, pytest and selenium webdriver. I am performing validation of the home page and search results.
+#### I performed web UI automation for PHPTravels hotel search feature. I built a test automation solution using pycharm, pytest and selenium webdriver. I am performing validation of the home page and search results.
+
 
 #### Prerequisites:
-[Home Page Link]( https://www.phptravels.net/home)
 
 Please make sure you have **Python** installed [link](https://www.python.org/downloads/)
 
@@ -89,18 +89,22 @@ setupenv.sh
 
 
 ### Parallel test execution
+
 The only way to achieve truly continuous testing with web UI tests is to run them in parallel. **pytest-xdist** is a plugin that lets you scale up by increasing the test thread count and scale out by distributing test execution to remote machines. Pass -n auto to use as many processes as your computer has CPU cores.:
 ```
 pytest -n auto
 ```
 
+My environment **Windows 10 enterprise** & **Chrome Version 84.0.4147.105 (Official Build) (64-bit)**
 
-#### Test case description: 
+#### Test execution: 
 
-Test the Hotels search feature
+Test the Hotels search feature.
+
+Navigate to the [home page]( https://www.phptravels.net/home)
 
 
-### Test Data:
+### Use the following as your test data:
 
 | ID | Hotel | Checkin | Checkout | Adults | Children |
 |----|-------|---------|----------|--------|----------|
@@ -162,17 +166,25 @@ Expected Results: Alzer hotel search result should be displayed
 Actual Results: No matching result is displayed
 Pass/Fail: Fail
 
+
 Test case 2
 
 Expected Results: Alzer hotel search result should be displayed
+
 Actual Results: No matching result is displayed
+
 Pass/Fail: Fail
+
 
 Test case 3
 
 Expected Results: Search results should not be displayed. User should recieve error message to add valid dates and adult/children
+
 Actual Results: List of hotels is displayed
+
 Pass/Fail: Fail
+
+
 
 #### Tria:
 
@@ -205,7 +217,7 @@ Pass/Fail: Fail
 
 
 
-Perfomance Issues:
+### Perfomance Issues:
 
 Reliabilty: Fail
 

@@ -163,7 +163,9 @@ Then they will receive an error message to missing fields
 Test case 1
 
 Expected Results: Alzer hotel search result should be displayed
+
 Actual Results: No matching result is displayed
+
 Pass/Fail: Fail
 
 

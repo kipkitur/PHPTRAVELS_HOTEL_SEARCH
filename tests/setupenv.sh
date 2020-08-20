@@ -3,7 +3,11 @@
 #pipenv install selenium
 #pipenv install pytest
 #pipenv install allure-pytest
+<<<<<<< HEAD
 #pipenv install pytest-xdist
+=======
+#pipenv install allure-behave
+>>>>>>> 601062a313790068a2e4e9f74a256325e65ec794
 #mkdir pages resources tests
 #cd pages
 #touch {__init__,home_page_alzer,home_page_tria,search_result_tria,search_result_alzer}.py

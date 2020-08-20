@@ -12,7 +12,11 @@ from pages.search_result_tria import PhpTravelsSearchResultPageTria
 @pytest.mark.regressiontest
 def test_search_tria(browser, hotel_tria, checkin_tria, checkout_tria):
     home_page = PhpTravelsHomePageTria(browser)
+<<<<<<< HEAD
     search_result_page = PhpTravelsSearchResultPageTria(browser)
+=======
+    # search_result_page = PhpTravelsSearchResultPage(browser)
+>>>>>>> 601062a313790068a2e4e9f74a256325e65ec794
 
     # navigate to PhpTravels home page
     home_page.load_page()
@@ -25,8 +29,12 @@ def test_search_tria(browser, hotel_tria, checkin_tria, checkout_tria):
     home_page.enter_tria_details(hotel_tria, checkin_tria, checkout_tria)
 
     # click on search button
+<<<<<<< HEAD
     home_page.click_search_button()
 
     search_result_page.load_page_result_first_tria()
     search_result_page.verify_title_result_tria()
     search_result_page.verify_url_result_first_tria()
+=======
+    home_page.click_search_button()
+>>>>>>> 601062a313790068a2e4e9f74a256325e65ec794

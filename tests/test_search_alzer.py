@@ -12,7 +12,11 @@ from pages.search_result_alzer import PhpTravelsSearchResultPageAlzer
 @pytest.mark.regressiontest
 def test_search_alzer(browser, hotel_alzer, checkin_alzer, checkout_alzer):
     home_page = PhpTravelsHomePageAlzer(browser)
+<<<<<<< HEAD
     search_result_page = PhpTravelsSearchResultPageAlzer(browser)
+=======
+    #search_result_page = PhpTravelsSearchResultPageAlzer(browser)
+>>>>>>> 601062a313790068a2e4e9f74a256325e65ec794
 
     # navigate to PhpTravels home page
     home_page.load_page()
@@ -27,6 +31,10 @@ def test_search_alzer(browser, hotel_alzer, checkin_alzer, checkout_alzer):
     # click on search button
     home_page.click_search_button()
 
+<<<<<<< HEAD
     search_result_page.load_page_result()
     search_result_page.verify_title_result()
     search_result_page.verify_url_result_first()
+=======
+    #search_result_page.verify_url()
+>>>>>>> 601062a313790068a2e4e9f74a256325e65ec794

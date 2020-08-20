@@ -225,6 +225,12 @@ Reliabilty: Fail
 
 Security: Fail
 
+
+![WEBSITE CRASHED](screenshots/homepage_broken1.PNG)
+
+
+![404 ERROR](screenshots/tokyo_zero_travellers.PNG)
+
 ![403 error](screenshots/403-error.PNG)
 
 

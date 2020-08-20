@@ -176,22 +176,31 @@ Pass/Fail: Fail
 
 #### Tria:
 
+
 Test case 1
 
 Expected Results: Tria hotel search result should be displayed
+
 Actual Results: As expected
+
 Pass/Fail: Pass
+
 
 Test case 2
 
 Expected Results: Tria hotel search result should be displayed
+
 Actual Results: As expected
+
 Pass/Fail: Pass
+
 
 Test case 3
 
 Expected Results: Search results should not be displayed. User should recieve error message to add valid dates and adult/children
+
 Actual Results: Tria hotel is displayed
+
 Pass/Fail: Fail
 
 
@@ -199,6 +208,7 @@ Pass/Fail: Fail
 Perfomance Issues:
 
 Reliabilty: Fail
+
 Security: Fail
 
 ![403 error](screenshots/403-error.PNG)

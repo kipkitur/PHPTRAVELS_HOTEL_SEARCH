@@ -226,10 +226,10 @@ Reliabilty: Fail
 Security: Fail
 
 
-![WEBSITE CRASHED](screenshots/homepage_broken1.PNG)
+![WEBSITE CRASHED](screenshots/homepage_broken1.png)
 
 
-![404 ERROR](screenshots/tokyo_zero_travellers.PNG)
+![404 ERROR](screenshots/tokyo_zero_travellers.png)
 
 ![403 error](screenshots/403-error.PNG)
 

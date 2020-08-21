@@ -9,7 +9,7 @@ from pages.search_result_alzer import PhpTravelsSearchResultPageAlzer
     ("Alzer Hotel Istanbul, Istanbul", "12/30/2020", "12/29/2020")
 ])
 
-@pytest.mark.regressiontest
+@pytest.mark.hotelsearch
 def test_search_alzer(browser, hotel_alzer, checkin_alzer, checkout_alzer):
     home_page = PhpTravelsHomePageAlzer(browser)
     search_result_page = PhpTravelsSearchResultPageAlzer(browser)

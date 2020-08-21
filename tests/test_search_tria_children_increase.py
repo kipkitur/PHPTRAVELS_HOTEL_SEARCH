@@ -8,7 +8,7 @@ from pages.search_result_tria import PhpTravelsSearchResultPageTria
     ("Tria Hotel Istanbul Especial, Istanbul", "12/30/2020", "12/29/2020")
 ])
 
-@pytest.mark.regressiontest
+@pytest.mark.hotelsearch
 def test_search_tria(browser, hotel_tria, checkin_tria, checkout_tria):
     home_page = PhpTravelsHomePageTria(browser)
     search_result_page = PhpTravelsSearchResultPageTria(browser)
